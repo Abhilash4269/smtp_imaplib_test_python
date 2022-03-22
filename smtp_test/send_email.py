@@ -17,6 +17,7 @@ def send_mail(text='Email Body', subject='Congratulations!',from_email='JACKPOT 
     txt_part = MIMEText(text,'plain')
     # msg.attach(txt_part)
     
+    # Insert the html template of your desire below --
     html_part = MIMEText('<div><h1>You Won a lottery of rupees 1 lakhs !!!!</h1><a href="https://www.youtube.com/watch?v=XqZsoesa55w">Click Here to Claim</a></div>',"html")
     msg.attach(html_part)
     
