@@ -1,7 +1,7 @@
 import imaplib , email
 
 user = "abhilash.d@tessrac.com"
-password =""
+password =""                            # enter password here
 imap_url ="outlook.office365.com"
 
 con = imaplib.IMAP4_SSL(imap_url)
