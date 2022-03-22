@@ -3,7 +3,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 username = 'abhilash.haranadha@gmail.com'
-password = 'CHEESEballs@69'
+password = ''
 
 
 
